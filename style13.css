@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-image: url(IMG/background.png);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+.form-box {
+  width: 450px;
+  margin: 0px 10px;
+}
+.form-box header {
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 10px;
+  cursor: pointer;
+  align-items: center;
+  color: #3a4d39;
+  position: relative;
+}
+.form-box form .field {
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: column;
+}
+.form-box form .input input {
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+.btn {
+  height: 35px;
+  background: rgb(79, 111, 82);
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 10px;
+  padding: 0px 10px;
+}
+.btn:hover {
+  opacity: 0.82;
+}
+.submit {
+  width: 100%;
+}
+.links {
+  margin-bottom: 15px;
+}
+
+.payment .container .title {
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+
+.payment .container .title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 40px;
+  height: 3px;
+  width: 90px;
+  border-radius: 5px;
+  background: #3a4d39;
+}
+
+.content form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+form .user-details .input-box input::placeholder {
+  color: #739072;
+}
+
+form .user-details .input-box input:hover::placeholder {
+  color: #ece3ce;
+}
+
+form .input-box span.details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.user-details .input-box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+  border-color: #3a4d39;
+}
+
+form .class-details .class-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+form .level-details .level-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+form .payment-details .payment-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+form .category {
+  display: flex;
+  width: 80%;
+  margin: 14px 0;
+  justify-content: space-between;
+}
+
+form .category label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+form .category label .dot {
+  height: 18px;
+  width: 18px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+form .button {
+  height: 45px;
+  margin: 35px 0;
+}
+
+form .button input {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  color: #f1f0ec;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s;
+  background: #739072;
+}
+
+form .button input:hover {
+  transform: scale(0.99);
+  background-color: #ece3ce;
+}
